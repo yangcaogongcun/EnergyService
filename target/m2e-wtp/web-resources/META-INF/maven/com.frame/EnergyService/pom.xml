@@ -177,21 +177,27 @@
 			<version>2.4</version>
 			<classifier>jdk15</classifier><!--指定jdk版本 -->
 		</dependency>
-		
+
 		<!-- 导入java ee jar 包 -->
 		<dependency>
 			<groupId>javax</groupId>
 			<artifactId>javaee-api</artifactId>
 			<version>7.0</version>
 		</dependency>
-		
+
 		<!-- excelpoi -->
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
 			<version>3.14</version>
 		</dependency>
-		
+
+		<!-- Tiles -->
+		<dependency>
+			<groupId>org.apache.tiles</groupId>
+			<artifactId>tiles-extras</artifactId>
+			<version>3.0.5</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>EnergyService</finalName>

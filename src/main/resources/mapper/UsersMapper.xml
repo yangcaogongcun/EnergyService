@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.stand.spring.Mapper.UsersMapper" >
+  <resultMap id="BaseResultMap" type="com.stand.spring.model.Users" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="U_Id" property="uId" jdbcType="INTEGER" />
+    <result column="U_Name" property="uName" jdbcType="CHAR" />
+    <result column="U_Pwd" property="uPwd" jdbcType="CHAR" />
+    <result column="U_Right" property="uRight" jdbcType="INTEGER" />
+    <result column="U_Des" property="uDes" jdbcType="LONGVARCHAR" />
+  </resultMap>
+</mapper>

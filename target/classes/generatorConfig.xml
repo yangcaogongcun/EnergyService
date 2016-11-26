@@ -36,7 +36,7 @@
 		<javaClientGenerator targetPackage="${targetMapperPackage}"
 			targetProject="${targetJavaProject}" type="XMLMAPPER" />
 
-		<!-- <table tableName="Info" domainObjectName="Info"
+		<table tableName="Info" domainObjectName="Info"
 			enableCountByExample="true" enableUpdateByExample="true"
 			enableDeleteByExample="true" enableSelectByExample="true"
 			selectByExampleQueryId="true" />
@@ -117,12 +117,21 @@
 		<table tableName="AlarmList" domainObjectName="AlarmList"
 			enableCountByExample="false" enableUpdateByExample="false"
 			enableDeleteByExample="false" enableSelectByExample="false"
-			selectByExampleQueryId="false" /> -->
+			selectByExampleQueryId="false" /> 
 			<table tableName="role" domainObjectName="Role"
 			enableCountByExample="false" enableUpdateByExample="false"
 			enableDeleteByExample="false" enableSelectByExample="false"
 			selectByExampleQueryId="false" />
 			<table tableName="permission" domainObjectName="Permission"
+			enableCountByExample="false" enableUpdateByExample="false"
+			enableDeleteByExample="false" enableSelectByExample="false"
+			selectByExampleQueryId="false" />
+			
+				<table tableName="tempdata" domainObjectName="Tempdata"
+			enableCountByExample="false" enableUpdateByExample="false"
+			enableDeleteByExample="false" enableSelectByExample="false"
+			selectByExampleQueryId="false" />
+			<table tableName="edata" domainObjectName="Edata"
 			enableCountByExample="false" enableUpdateByExample="false"
 			enableDeleteByExample="false" enableSelectByExample="false"
 			selectByExampleQueryId="false" />

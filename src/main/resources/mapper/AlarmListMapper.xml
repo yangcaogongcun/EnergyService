@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.stand.spring.Mapper.AlarmListMapper" >
+  <resultMap id="BaseResultMap" type="com.stand.spring.model.AlarmList" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <result column="Al_Id" property="alId" jdbcType="INTEGER" />
+    <result column="Al_Date" property="alDate" jdbcType="TIMESTAMP" />
+    <result column="Al_DevId" property="alDevid" jdbcType="INTEGER" />
+    <result column="Al_Point" property="alPoint" jdbcType="INTEGER" />
+    <result column="Al_Type" property="alType" jdbcType="INTEGER" />
+    <result column="Al_Value" property="alValue" jdbcType="DOUBLE" />
+    <result column="Al_Limit" property="alLimit" jdbcType="DOUBLE" />
+    <result column="Al_Av" property="alAv" jdbcType="INTEGER" />
+  </resultMap>
+</mapper>

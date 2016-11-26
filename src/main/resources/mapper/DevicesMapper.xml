@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.stand.spring.Mapper.DevicesMapper" >
+  <resultMap id="BaseResultMap" type="com.stand.spring.model.Devices" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="Dev_Id" property="devId" jdbcType="BIGINT" />
+    <result column="Dev_Name" property="devName" jdbcType="VARCHAR" />
+    <result column="Dev_Port" property="devPort" jdbcType="INTEGER" />
+    <result column="Dev_Addr" property="devAddr" jdbcType="INTEGER" />
+    <result column="Dev_Des" property="devDes" jdbcType="VARCHAR" />
+    <result column="Dev_Ct" property="devCt" jdbcType="INTEGER" />
+    <result column="Dev_Pt" property="devPt" jdbcType="INTEGER" />
+    <result column="Dev_Ty" property="devTy" jdbcType="INTEGER" />
+    <result column="Dev_Reg" property="devReg" jdbcType="INTEGER" />
+    <result column="Dev_Seg" property="devSeg" jdbcType="INTEGER" />
+    <result column="Dev_Class" property="devClass" jdbcType="INTEGER" />
+    <result column="Dev_Price" property="devPrice" jdbcType="DOUBLE" />
+    <result column="Dev_Unit" property="devUnit" jdbcType="CHAR" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.stand.spring.Mapper.LogsMapper" >
+  <resultMap id="BaseResultMap" type="com.stand.spring.model.Logs" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="Log_Id" property="logId" jdbcType="INTEGER" />
+    <result column="Log_User" property="logUser" jdbcType="CHAR" />
+    <result column="Log_Date" property="logDate" jdbcType="TIMESTAMP" />
+    <result column="Log_Time" property="logTime" jdbcType="TIME" />
+    <result column="Log_Ip" property="logIp" jdbcType="CHAR" />
+  </resultMap>
+</mapper>
